@@ -20,3 +20,4 @@ def extract_text(image_path):
     # Extracting text using Tesseract
     extracted_text = pytesseract.image_to_string(processed_image)
     return extracted_text
+
